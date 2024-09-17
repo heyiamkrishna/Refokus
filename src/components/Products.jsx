@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Product from './Product'
 
@@ -35,7 +36,7 @@ const Products = () => {
 
   return (
     <div className='  '>
-      {products.map((item,index)=>(<Product val={item} />))}
+      {products.map((item,index)=>(<Product key={index} val={item} />))}
     </div>
   )
 }

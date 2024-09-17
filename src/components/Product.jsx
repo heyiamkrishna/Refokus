@@ -3,6 +3,7 @@ import Button from "./Button";
 
 const Product = ({val}) => {
   return (
+    
     <div className="bg-zinc-900 py-8 max-w-screen-xl px-4  mx-auto flex justify-between items-center  ">
       <h1 className="text-5xl">{val.title}</h1>
       <div className="  w-1/3  ">
