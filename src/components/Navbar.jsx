@@ -9,7 +9,7 @@ function Navbar() {
     <div className="max-w-screen-xl mx-auto py-6 flex items-center justify-between border-b-[1px] border-zinc-700">
       <div className="nleft flex items-center">
         <img src={logoUrl} alt="refokus-logo" />
-        <div className="links flex gap-14 ml-20">
+        <div className="links  flex gap-14 ml-20">
           {navLink.map((elem, index) => (
             <a
               key={index}

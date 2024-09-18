@@ -29,7 +29,7 @@ const Marques = () => {
     ]
   return (
     <div className='my-32'>
-{images.map(item=><Marque imageUrl={item}/>)}
+{images.map((item,index)=><Marque imageUrl={item} direction={index ===0 ?"left":'right'} key={index}/>)}
       
     </div>
   )

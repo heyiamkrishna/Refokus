@@ -6,10 +6,13 @@ import Products from './components/Products'
 import Marques from './components/Marques'
 import Cards from './components/Cards'
 import Footer from './components/Footer'
+import LocomotiveScroll from 'locomotive-scroll';
+
+
 
 function App() {
 
-
+  const locomotiveScroll = new LocomotiveScroll();
   return (
     <>
        <div className="app font-['Poppins'] text-white font-light w-full  bg-zinc-900   ">
