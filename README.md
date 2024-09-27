@@ -30,7 +30,6 @@ The project is deployed using **Vercel** and can be viewed live here: [Live Demo
 ## 📸 Website Screenshot
 
 ![Refokus Clone Screenshot](src/assets/refokus.png)
-
 ## 🤝 Contributing
 
 We welcome contributions to this project! If you have suggestions, encounter issues, or want to add new features, feel free to **open an issue** or **submit a pull request**. Together, we can make this project even better!
