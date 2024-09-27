@@ -29,7 +29,7 @@ The project is deployed using **Vercel** and can be viewed live here: [Live Demo
 
 ## 📸 Website Screenshot
 
-![Refokus Clone Screenshot](public/ss.png)
+![Refokus Clone Screenshot](src/assets/refokus.png)
 
 ## 🤝 Contributing
 
@@ -51,6 +51,3 @@ We welcome contributions to this project! If you have suggestions, encounter iss
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.

@@ -8,7 +8,7 @@ const Card = ({ width, start, para,hover,header,title }) => {
     <motion.div
     whileHover={{padding:"25px"}}
     
-      className={` bg-zinc-800  p-5   hover:${hover && "bg-violet-600" } rounded-xl  min-h-[30rem] flex flex-col justify-between ${width}`}
+      className={` bg-zinc-800  p-5 hover:${hover && "bg-violet-600" } rounded-xl  min-h-[30rem] flex flex-col justify-between ${width}`}
     >
       <div className="w-full">
         <div className="flex justify-between items-center w-full">

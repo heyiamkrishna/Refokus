@@ -12,7 +12,7 @@ const Product = ({val,mover,count}) => {
         </p>
         <div className="flex  items-center gap-5 whitespace-nowrap ">
             {val.live && <Button/>}
-          {/* <Button /> */}
+            
           {val.case && <Button title={'case study'}/>}
         </div>
       </div>

@@ -36,7 +36,7 @@ const Products = () => {
   const [pos, setpos] = useState(null);
   const mover = (val) => {
     setpos(val * 18);
-    console.log(setpos(val * 18));
+    console.log(setpos('this' ,val * 18));
   };
 
   return (
